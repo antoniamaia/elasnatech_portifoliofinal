@@ -1,0 +1,165 @@
+CONCEITO DE SISTEMA COMPUTACIONAL
+
+O computador é uma máquina ou dispositivo capaz de executar uma sequência de instruções definidas pelo homem para gerar um determinado resultado, 
+o qual atenda a uma necessidade específica (ex.: realizar cálculos, gerar relatórios). Essa sequência de instruções é denominada algoritmo,
+ o qual pode ser definido como um conjunto de regras expressas por uma sequência lógica finita de instruções, que ao serem executadas pelo computador, 
+resolvem um problema específico. Assim, podemos dizer que um ou mais algoritmos compõem o que conhecemos como programa de computador, que no âmbito 
+profissional da área de informática é conhecido como software.
+
+As partes físicas de um computador, tais como: dispositivos de entrada e saída (ex.: monitor, teclado, impressora, webcam), dispositivos de armazenamento
+ (ex. memória volátil e permanente), processador, assim como todo o conjunto de elementos que compõem um computador são chamados de hardware. 
+A Figura 1.1 apresenta os elementos que compõem o hardware.
+
+
+Dispositivo: mecanismo usado para obter um resultado.
+
+Instruções: ordens ou comandos para que um computador execute uma solicitação do homem (usuário), a fim de atender a uma determinada necessidade.
+
+Dessa forma, pode-se dizer que a combinação do hardware e do software forma o sistema computacional.
+
+
+COMPUTADORES ANALOGICOS X DIGITAIS
+Os computadores podem ser classificados em dois tipos principais: analógicos e digitais.
+
+Os computadores analógicos não trabalham com números nem com símbolos que representam os números; eles procuram fazer analogia entre quantidades 
+(ex. pesos, quantidade de elementos, níveis de tensão, pressões hidráulicas). Alguns exemplos desse tipo de computador são o Ábaco – que se utilizava 
+de pequenos carretéis embutidos em um pequeno filete de metal para realizar cálculos – ou a régua de cálculo – que utiliza comprimentos de escalas especialmente 
+calibradas para facilitar a multiplicação, a divisão e outras funções.
+
+
+Pode-se dizer que o computador analógico é uma categoria de computadores que se utiliza de eventos elétricos, mecânicos ou hidráulicos para resolver problemas
+ do homem. Ou seja, tais computadores representam o comportamento de um sistema real utilizando-se para isso de grandezas físicas.
+
+Diferentemente dos computadores analógicos, que representam números por meio da analogia direta entre quantidades, os computadores digitais resolvem problemas 
+realizando operações diretamente com números, enquanto os analógicos medem. Os computadores digitais resolvem os problemas realizando cálculos e tratando cada 
+número, dígito por dígito.
+
+Outra grande diferença dessa categoria de computadores é que eles podem resolver problemas por meio de uma sequência programada de instruções com o mínimo de 
+intervenção humana.
+
+Assim, podemos dizer que o computador digital surgiu como uma solução rápida e com um nível de automação bem mais elevado de realizar grandes computações numéricas.
+
+Dígitos: são símbolos usados na representação numérica inteira ou fracionária.
+
+
+EVOLUÇÃO TECNOLÓGICA: GERAÇÕES DOS COMPUTADORES
+ 
+Na atividade anterior, percebemos que houve uma grande evolução desde o surgimento do computador analógico até o desenvolvimento do computador digital. 
+O que impactou nessa evolução foram as tecnologias utilizadas na construção de tais computadores, pois, no decorrer dos anos, foram sendo descobertos novos 
+conhecimentos, materiais e dispositivos os quais permitiram a substituição de tecnologias antigas de processamento de informações por novas tecnologias mais 
+eficientes em termos de computação.
+
+Tecnologia: é tudo o que o homem inventou para facilitar a resolução de seus problemas, incluindo a realização de tarefas. Portanto, exemplos de tecnologia 
+podem variar de acordo com o contexto em que se aplica (ex.: a descoberta da fotografia, os óculos, que resolveram o problema dos deficientes visuais, o computador).
+ Assim, tecnologia pode ser definida com técnica, conhecimento, método, materiais, ferramentas e processos usados para resolver problemas ou facilitar sua solução.
+
+Para entender essa evolução, vamos estudar a classificação das gerações dos computadores e os avanços tecnológicos que caracterizam cada uma delas:
+
+Geração zero: computadores mecânicos (1642-1945)
+
+
+Antikythera, Pascalina (Blase Pascal) e Máquina Diferencial (Babbage)
+
+
+
+Essa geração foi caracterizada pelos computadores essencialmente analógicos, conforme descritos na seção anterior, os quais eram construídos a partir de 
+engrenagens mecânicas e eletromecânicas, operavam em baixa velocidade e eram destinados a resolver problemas específicos. São exemplos dessa geração, além dos 
+já citados anteriormente, o mecanismo de Antikythera, a máquina de Pascal e a máquina das diferenças de Babbage.
+
+Primeira geração: válvulas (1945-1955)
+
+
+ENIAC e Válvulas Eletromecânicas
+
+
+Podemos dizer que a Segunda Guerra Mundial foi o marco do surgimento da computação moderna. Foi nesse contexto que começaram a surgir novas tecnologias mais 
+modernas capazes de substituir os componentes mecânicos utilizados até então nos computadores analógicos, possibilitando o surgimento dos computadores digitais.
+ Esse foi um dos motivos pelos quais os computadores da época ficaram conhecidos como computadores de “primeira geração”.
+
+Alguns dos componentes utilizados na fabricação desses computadores eram os relés, os capacitores e as válvulas, sendo as últimas o mais importante deles. 
+As válvulas possibilitaram cálculos milhares de vezes mais rápidos do que os efetuados com os relés eletromecânicos utilizados inicialmente.
+
+
+Segunda geração: transistores (1955-1965)
+
+Transistor, IBM 7030 e válvula comparada ao transistor
+
+Nessa geração, a válvula foi substituída pelo transistor, o qual passou a ser um componente básico na construção de computadores. O transistor foi desenvolvido
+pelo Bell Telephones Laboratories em 1948.
+
+Esse dispositivo reduziu de forma significativa o volume dos computadores e aumentou a sua capacidade de armazenamento. Além disso, o transistor apresentava
+ aquecimento mínimo, baixo consumo de energia e era mais confiável que as válvulas (que queimavam com facilidade). Para você ter uma ideia, um transistor 
+apresentava apenas 1/200 (0, 005) do tamanho de uma das primeiras válvulas e consumia menos de 1/100 (0,01) da sua energia.
+
+
+
+Terceira geração: circuitos integrados (1965-1980)
+
+
+IBM 4004 e Circuito integrados
+
+É a partir dessa geração que surgem os primeiros circuitos integrados (CI): dispositivos que incorporam inúmeros transistores e outros componentes eletrônicos
+em formato de miniaturas em um único encapsulamento. Portanto, cada chip é equivalente a inúmeros transistores. Essa tecnologia substituía os transistores, 
+os quais apresentam as seguintes vantagens: maior confiabilidade (não possui partes móveis); muito menores (equipamento mais compacto e mais rápido pela 
+proximidade dos circuitos); baixo consumo de energia (miniaturização dos componentes) e custo de fabricação muito menor. Dessa forma, os computadores passaram 
+a tornar-se mais acessíveis.
+
+
+
+Quarta geração: microprocessadores (1980 - 2000)
+
+
+Computador Pessoal (PC) e Microprocessadores
+
+Há circuitos integrados de diversos tamanhos, tipos e funções, desde os que contêm algumas dezenas de milhares de transistores até circuitos integrados 
+extraordinariamente mais complexos e “inteligentes” – ou seja, capazes de cumprir múltiplas funções de acordo com comandos ou “instruções” a eles fornecidos.
+
+A partir de 1970, as evoluções tecnológicas ocorreram principalmente na miniaturização dos componentes internos dos computadores; entretanto, os avanços
+ ficaram relacionados à escala de integração dos circuitos integrados, ou seja, na quantidade de dispositivos era possível incluir em um único chip.
+
+Quinta geração: O futuro (2000 - atual)
+
+
+Diversos dispositivos compõem a atual quinta geração (All-in-One, Desktops modernos, Notebooks, Tablets e Smartphones)
+
+Atualmente dispomos de computadores extremamente velozes, que apresentam tamanhos cada vez menores; esses avanços são possíveis graças às pesquisas que não cessam,
+ por parte de inúmeras universidades e instituições de pesquisa dispostas a descobrir o novo. Assim surgiu o que conhecemos por nanotecnologia, ou seja, a
+capacidade potencial de criar a partir da miniaturização, permitindo, assim, o desenvolvimento de dispositivos miniaturizados para compor um computador, por exemplo.
+
+
+COMPONENTES BÁSICOS DE UM SISTEMA COMPUTACIONAL
+Segundo a arquitetura de Von Neumann, os computadores possuem quatro componentes principais: Unidade Central de Processamento (UCP) – composta pela Unidade 
+Lógica e Aritmética (ULA) e a Unidade de Controle (UC), a memória e os dispositivos de entrada e saída. Tais componentes são interconectadas por barramentos.
+ E todos esses itens constituem o hardware de um computador (seu conjunto de componentes físicos), os quais são agrupados em módulos específicos, constituindo
+ a estrutura básica de um computador. A Figura 1.8 mostra, de forma genérica, essa estrutura.
+
+Cabe esclarecer que quando se fala em processador está se falando genericamente da UCP. Muitas pessoas usam a sigla UCP ou CPU para indicar o gabinete do computador,
+ o que é errôneo.
+
+
+
+A seguir serão descritos cada um dos principais componentes de um computador:
+
+UCP (Unidade Central de Processamento)
+
+Sigla representativa de Unidade Central de Processamento. Podemos dizer que se trata do componente principal do computador. Algumas pessoas chamam de processador 
+ou microprocessador. É responsável pela execução de dados e instruções armazenadas em memória (código de programas e dados);
+
+Memória
+
+Existem diversos tipos de memória em um computador (ex.: RAM (principal), ROM, cache, registradores), mas existe uma delas denominada memória principal, 
+a qual é indispensável. A memória principal é tão importante quanto a UCP, pois sem ela não seria possível disponibilizar os programas e seus dados para o 
+processamento pela CPU. Portanto, a memória é responsável por armazenar todos os programas que executam no computador e os dados que utilizam;
+
+Dispositivos de Entrada e Saída (E/S)
+
+São dispositivos responsáveis pelas entradas e saídas de dados, ou seja, pelas interações entre o computador e o mundo externo (usuários). São exemplos de 
+dispositivos de E/S: monitor de vídeo, teclado, mouse, webcam, impressora, entre outros;
+
+Barramento
+
+É responsável por interligar todos os componentes listados acima. Trata-se de uma via de comunicação composta por diversos fios ou condutores elétricos por onde 
+merculam os dados manipulados pelo computador.
+
+
+

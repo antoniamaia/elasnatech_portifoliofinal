@@ -1,0 +1,43 @@
+body {
+    font-family: sans-serif;
+}
+table, .configurador, #tempo {
+    width: 500px;
+    margin: auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table td {
+    border: 1px solid black;
+    height: 166px;
+    width: 166px;
+    text-align: center;
+    font-size: 96px;
+}
+.configurador, #tempo {
+    text-align: center;
+    border: none;
+    margin-bottom: 10px;
+}
+.configurador input{
+    padding: 10px;
+}
+.configurador span {
+    background-color: lightblue;
+    padding: 9px 15px 11px 15px;
+    vertical-align: center;
+    border: 1px solid darkcyan ;
+}
+.configurador button {
+    padding: 7px 15px;
+    background-color: lightblue;
+    border: 1px solid darkcyan;
+}
+.msg {
+    width: 480px;
+    padding: 10px;
+    background-color: #fafafa;
+    margin-bottom: 10px;
+    height: 40px;
+    color: darkcyan;
+}

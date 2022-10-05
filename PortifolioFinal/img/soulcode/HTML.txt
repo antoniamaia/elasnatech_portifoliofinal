@@ -1,0 +1,128 @@
+O que é HTML?
+
+*HTML é a linguagem de marcação padrão para criar páginas da Web.
+
+*HTML significa Hyper Text Markup Language
+
+*HTML descreve a estrutura de uma página da Web
+
+*HTML consiste em uma série de elementos
+
+*Os elementos HTML informam ao navegador como exibir o conteúdo
+
+*Os elementos HTML são representados por tags
+
+*As tags HTML rotulam partes do conteúdo, como "cabeçalho", "parágrafo", "tabela" e assim por 
+diante
+
+*Os navegadores não exibem as tags HTML, mas as usam para renderizar o conteúdo da página
+
+
+Um documento HTML simples tem a seguinte estrutura:
+
+
+                                                 HTML
+                           <!DOCTYPE html>
+                                       <html>
+                                          <head>
+                                             <title>Título da Página</title>
+                                          </head>
+                                            <body>
+
+                                                <h1>Meu primeiro cabeçalho</h1>
+                                                    <p>Meu primeiro parágrafo.</p>
+
+                                             </body>
+                                         </html>
+
+
+
+Exemplo explicado:
+
+*A <!DOCTYPE html>declaração define este documento como HTML5
+
+*O <html> elemento é o elemento raiz de uma página HTML
+
+*O <head> elemento contém meta informações sobre o documento
+
+*O <title>elemento especifica um título para o documento
+
+*O <body>elemento contém o conteúdo da página visível
+
+*O <h1>elemento define um cabeçalho grande
+
+*O <p>elemento define um parágrafo
+
+
+Tags em HTML
+Tags HTML são nomes que pertencem aos elementos entre colchetes e que delimitam a abertura e o 
+encerramento de uma marcação, por exemplo:
+
+<tag de abertura> o conteúdo que você deseja exibir entra aqui ... </tag de encerramento>
+
+Observe que as tags HTML normalmente vêm em pares como <p>e</p>
+A primeira tag em um par é a tag inicial, a segunda tag é a tag final
+A tag final é escrita como a tag inicial, mas com uma barra inserida antes do nome da tag
+
+
+CRIANDO NOSSA PRIMEIRA PÁGINA!!
+
+As páginas da Web podem ser criadas e modificadas usando editores profissionais de HTML.
+
+No entanto, para aprender HTML, recomendamos um editor de texto simples, como o Bloco de Notas
+(PC).
+
+Acreditamos que o uso de um editor de texto simples é uma boa maneira de aprender HTML.
+
+Siga as etapas abaixo para criar sua primeira página da web com o Bloco de notas ou o Editor de
+texto.
+
+
+Etapa 1: Abrir o bloco de notas (PC)
+
+*Windows 8 ou posterior:
+
+Abra a tela inicial (o símbolo da janela na parte inferior esquerda da tela). Digite Notepad .
+
+
+*Windows 7 ou anterior:
+
+Abra Iniciar > Programas> Acessórios> Bloco de Notas
+
+Etapa 2: Escreva algum HTML
+Escreva ou copie algum HTML no bloco de notas.
+
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Modelo de Site</title>
+  </head>
+  <body>
+    <h1>Meu primeiro cabeçalho</h1>
+    <p>Meu primeiro parágrafo.</p>
+    <p>Meu segundo parágrafo.</p>
+  </body>
+</html>
+
+
+Etapa 3: salvar a página HTML
+Salve o arquivo no seu computador. Selecione Arquivo> Salvar como no menu Bloco de notas.
+
+Nomeie o arquivo "index.htm" e defina a codificação para UTF-8 (que é a codificação 
+preferida para arquivos HTML).
+
+
+
+Você pode usar .htm ou .html como extensão de arquivo. Não há diferença, depende de você.
+
+
+Etapa 4: Exibir a página HTML no seu navegador
+Abra o arquivo HTML salvo no seu navegador favorito (clique duas vezes no arquivo ou clique
+com o botão direito do mouse - e escolha "Abrir com").
+
+O resultado será mais ou menos assim:
+
+

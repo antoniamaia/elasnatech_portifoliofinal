@@ -1,0 +1,196 @@
+FUNÇÕES E PORTAS LÓGICA	
+
+De acordo com Monteiro (2007), um computador é constituído de elementos eletrônicos, como 
+resistores, capacitores e principalmente transistores. Nesses computadores, os transistores são, 
+em geral, componentes de determinados circuitos eletrônicos que precisam armazenar os sinais 
+binários e realizar certos tipos de operações com eles. Esses circuitos, chamados de circuitos 
+digitais, são formados por pequenos elementos capazes de manipular grandezas apenas binárias.
+ 
+Os pequenos elementos referidos são conhecidos como portas (gates) lógicas, por permitirem ou 
+não a passagem desses sinais, e os circuitos que contêm as portas lógicas são conhecidos como 
+circuitos lógicos.
+
+Portas lógicas ou circuitos lógicos, são dispositivos que operam um ou mais sinais lógicos de 
+entrada para produzir uma e somente uma saída, dependente da função implementada no circuito. 
+São geralmente usadas em circuitos eletrônicos, por causa das situações que os sinais deste tipo 
+de circuito podem apresentar: presença de sinal, ou "1"; e ausência de sinal, ou "0". 
+As situações "Verdadeira" e "Falsa" são estudadas na Lógica Matemática ou Lógica de Boole; 
+origem do nome destas portas. O comportamento das portas lógicas é conhecido pela tabela verdade 
+que apresenta os estados lógicos das entradas e das saídas.
+
+Assim, circuitos lógicos são montados a partir da combinação de uma unidade básica construtiva 
+denominada porta lógica, a qual é obtida mediante a combinação de transistores e dispositivos 
+semicondutores auxiliares. Portanto, a porta lógica é a base para a construção de qualquer 
+sistema digital (ex.: o microprocessador).
+
+Em geral, os circuitos lógicos são agrupados e embutidos em um Circuito Integrado (CI). 
+Esses dispositivos implementam uma determinada função com o objetivo de cumprir uma tarefa 
+específica.
+
+Portas lógicas são encontradas desde o nível de integração em Ultra Larga Escala (ULSI) 
+ou Super Larga Escala (SLSI) até o nível de integração existente em circuitos digitais mais 
+simples, desempenhando funções mais básicas (ex.: comparações, somas, multiplicações).
+
+
+
+PORTA AND (E)
+Trata-se de uma operação que aceita dois operandos ou duas entradas (A e B), conforme mostra 
+a Figura abaixo. Os operandos são binários simples (0 e 1).
+
+                           A___[]/ Y
+                           B___[]\
+
+
+
+Pode-se dizer que a operação AND simula uma multiplicação binária, permitindo os possíveis 
+resultados conforme mostra a Tabela abaixo:
+
+                        ENTRADA              SAIDA
+                        A     B             X = A.B
+                        0     0                0
+                        0     1                0
+                        1     0                0
+                        1     1                1
+                    Fonte: adaptada de Monteiro (2007)
+
+Conforme é possível observar, a regra é: “se o primeiro operando é 1 e o segundo operando é 1, 
+o resultado é 1 (Verdadeiro), senão o resultado é 0 (Falso)”.
+
+Um exemplo de aplicação de uma porta AND seria na composição de um circuito para a transferência
+de bits de dados de um local para outro (ex.: da memória para a CPU). Nesse caso, a finalidade 
+seria a de garantir que um bit de origem seja o mesmo bit de destino (MONTEIRO, 2007).
+
+
+PORTA OR (OU)
+
+Trata-se de uma operação que aceita dois operandos ou duas entradas (A e B), conforme 
+mostra a Figura abaixo. Os operandos são binários simples (0 e 1).
+
+
+                           A___[]/ Y
+                           B___[]\
+
+
+Podemos dizer que a operação OR simula uma soma de binários, permitindo os possíveis 
+resultados conforme mostra a Tabela abaixo:
+
+                        ENTRADA              SAIDA
+                        A     B             X = A+B
+                        0     0                0
+                        0     1                1
+                        1     0                1
+                        1     1                1
+                    Fonte: adaptada de Monteiro (2007)
+
+
+Conforme podemos observar, a regra é: “se o primeiro operando é 1 ou o segundo operando é 1, 
+ou se os dois operandos forem 1, o resultado é 1, senão o resultado é 0”.
+
+As operações lógicas OR são muito utilizadas em lógica digital ou mesmo em comandos de 
+decisão de algumas linguagens de programação (ex.: Se (X=1 OU Y=1) Então Executa uma ação) 
+(MONTEIRO, 2007).
+
+
+
+PORTA NOT (NÃO)
+A porta NOT representa um inversor. Essa operação aceita apenas um operando ou uma entradas 
+(A), conforme mostra a Figura abaixo. O operando pode ser um dígito binário (0 ou 1).
+
+                           A___[]→ Y
+                          
+
+
+Pode-se dizer que a operação NOT realiza a inversão de um dígito binário, permitindo os 
+possíveis resultados conforme mostra a Tabela abaixo:
+
+                        ENTRADA              SAIDA
+                           A                 X = Ã
+                           0                   1
+                           1                   0
+
+                    Fonte: adaptada de Monteiro (2007)
+
+
+Conforme é possível observar, a regra é: “se o operando for 1, o resultado é 0, senão o 
+resultado é 1”.
+
+Entre as principais aplicações dos circuitos inversores está a representação de números 
+negativos no formato binário, quando se usa o que é chamado de complemento a 1 ou complemento 
+a 2, fazendo-se necessária a inversão de um grupo de bits representativos de um número negativo 
+(MONTEIRO, 2007).
+
+
+
+PORTA XOR (OU exclusivo)
+A denominação XOR é a abreviação do termo EXCLUSIVE OR. Trata-se de uma operação que aceita 
+dois operandos ou duas entradas (A e B), conforme mostra a Figura abaixo. Os operandos são 
+binários simples (0 e 1).
+
+                           A___)[]/ Y
+                           B___)[]\
+
+
+
+
+Pode-se dizer que a operação XOR possui como principal função a verificação de igualdade, 
+permitindo os possíveis resultados conforme mostra a Tabela a seguir:
+
+                        ENTRADA              SAIDA
+                        A     B             X = A↔B
+                        0     0                0
+                        0     1                1
+                        1     0                1
+                        1     1                0
+                    Fonte: adaptada de Monteiro (2007)
+
+
+Conforme é possível observar, a regra é: “se o primeiro operando ou o segundo operando for 
+igual a 1, o resultado é 1; senão, o resultado é 0”. Ou seja, para entradas iguais a saída 
+será 0 e para entradas diferentes a saída será 1.
+
+A porta XOR possui inúmeras aplicações, sendo um elemento lógico bastante versátil, permitindo, 
+por exemplo, a fabricação de um testador de igualdade entre valores, para testar, de modo rápido,
+se duas palavras de dados são iguais (MONTEIRO, 2007).
+
+
+OUTRAS PORTAS LÓGICAS E CIRCUITOS COMBINATÓRIOS
+Existem outras portas lógicas derivadas das portas lógicas apresentadas acima, tais como as 
+portas NAND (porta AND invertida) e a porta NOR (porta OR invertida). Ambas são apresentadas, 
+respectivamente, nas Figuras abaixo:
+
+Porta NAND:
+
+
+
+Porta NOR:
+
+As operações lógicas são realizadas em dois passos: primeiro a operação AND ou OR e, em seguida, 
+o seu resultado é invertido. Esse tipo de portas lógicas também possui diversas aplicações, sendo
+utilizado para reduzir a complexidade e a quantidade de portas lógicas necessárias a um 
+determinado circuito lógico.
+
+Não esqueça de que um circuito lógico pode possuir diversas portas lógicas e, portanto, suas 
+tabelas verdade poderão ter inúmeras entradas e inúmeras saídas (as quais poderão ser 
+representadas por suas respectivas equações booleanas). A Figura a seguir mostra o resumo dos 
+símbolos gráficos e matemáticos (equação booleana) de portas lógicas.
+
+
+
+A partir das portas lógicas básicas, é possível interligar diversas de suas unidades, de modo 
+a construir redes lógicas, também chamadas de circuitos combinatórios. Monteiro (2007) explica 
+que um circuito combinatório é definido como um conjunto de portas lógicas cuja saída em qualquer
+instante de tempo é função somente das entradas. O autor afirma ainda que existe outra categoria 
+de circuitos que combina portas lógicas, denominada circuitos sequenciais, os quais, além de 
+possuir portas, contêm elementos de armazenamento (uma espécie de memória).
+
+A Figura abaixo exemplifica um circuito combinatório implementado para uma determinada função.
+
+
+
+Dentre os exemplos de circuitos combinatórios, destacamos o das funções essenciais da maioria 
+dos computadores e sistemas digitais, ou seja, a realização de operações aritméticas tais como: 
+adição, subtração, multiplicação e divisão. Essas operações são realizadas na Unidade Lógica 
+Aritmética (ULA) destes sistemas digitais, onde uma série de portas lógicas são combinadas para 
+adicionar, subtrair, multiplicar ou dividir números binários. No caso das operações de 
+multiplicação e divisão, além das portas lógicas, há a necessidade de circuitos sequenciais.
+

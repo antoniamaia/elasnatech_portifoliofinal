@@ -1,0 +1,81 @@
+SITES E APLICAÇÕES WEB
+
+Qual a diferença entre SITE e APLICAÇÃO WEB?
+Não há uma definição exata que diferencie claramente sites e aplicações web. Alguns defendem 
+que os sites são read-only (somente leitura) enquanto as aplicações web são read-write 
+(leitura e escrita). Nessa definição, os sites apenas fornecem conteúdo enquanto as aplicações 
+web podem fornecer e/ou receber conteúdo.
+
+Outras pessoas preferem utilizar o critério do propósito para classificar como site ou aplicação 
+web. Por exemplo, se o propósito é divulgar as informações de uma empresa, os dados de um produto,
+as notícias de um determinado assunto, utiliza-se o termo site. Se o propósito é criar uma 
+ferramenta para controlar as atividades administrativas de uma organização, utiliza-se a 
+denominação aplicação web.
+
+Independentemente do critério de classificação utilizado, os tópicos discutidos nesse treinamento
+são importantes tanto para o desenvolvimento de sites quanto para o desenvolvimento de aplicações
+web.
+
+A seguir temos um esquema em PDF que resume o que foi discutido:
+
+﻿
+https://assets.teachablecdn.com/pdf_viewer/web/viewer.html?file=https://www.filepicker.io/api/file/OWVgizigTY25m7NgAfzD
+
+
+NAVEGADORES e DISPOSITIVOS
+
+As pessoas acessam sites e aplicações web através de navegadores (browsers) como Chrome, 
+Firefox, Internet Explorer e Safari. Normalmente, esses navegadores possuem algumas diferenças 
+na forma de exibir as páginas web aos usuários. Antigamente, essas diferenças eram maiores. 
+Com o passar do tempo, os navegadores ficaram cada vez mais parecidos nesse aspecto.
+
+Contudo, os desenvolvedores web ainda devem tomar cuidado com essas diferenças.
+
+O objetivo de um navegador da web (Chrome, Edge, Firefox, Safari) é ler documentos HTML e 
+exibi-los.
+
+O navegador não exibe as tags HTML, mas as utiliza para determinar como exibir o documento, 
+como no exemplo a seguir:
+
+
+
+
+A estrutura de uma página em HTML funciona como caixas(ou blocos) que podem ser colocados um 
+dentro do outro, de maneira a permitir a organização dos conteúdos por caixa ou bloco, usamos as 
+tags para delimitar o início e o fim das marcações.
+
+
+RESPONSIVIDADE de sites entre diversos aparelhos.
+
+Outro problema de compatibilidade importante é causado pela grande variedade de dispositivos 
+que podem ser utilizados para acessar os sites e as aplicações web. Atualmente, as pessoas 
+acessam os sites e as aplicações web através de computadores tradicionais, tablets, celulares, 
+televisores, entre outros.
+
+Esses dispositivos possuem telas de tamanhos diferentes. Dessa forma, os desenvolvedores web 
+devem considerar essas diferenças na criação das páginas web.
+
+Como funciona a WEB?
+Antes de iniciarmos nossos estudos é necessário que tenhamos alguns conceitos bem fixados, 
+já que muitos desses termos serão mencionados no decorrer do curso.
+
+• WWW: Abreviação de World Wide Web, é um sistema de documentos em hipermídia 
+(hypertextos, vídeos, sons, imagens, etc.) que são interligados. É constantemente utilizada 
+como sinônimo de internet.
+
+• Site: Conjunto de páginas web que representam uma pessoa, empresa ou instituição na web.
+
+• Browser: Também denominado de navegador, é um software utilizado para ler e interpretar as 
+páginas web, possibilitando que os usuários interajam com as mesmas. É através do browser que 
+“navegamos” na internet.
+
+• URL: Uniform Resource Locator – Localizador Uniforme de Recursos é uma sequência de caracteres 
+que define o endereço de um site ou recurso da web.
+
+• HTTP (Hypertext Transfer Protocol): Protocolo de Transferência de Hipertexto é um protocolo de 
+comunicação (presente na camada de aplicação, segundo o Modelo de Referência OSI) muito utilizado
+na internet.
+
+Assista o vídeo a seguir sobre a WEB:
+https://youtu.be/VT2WyUx2jHE
+

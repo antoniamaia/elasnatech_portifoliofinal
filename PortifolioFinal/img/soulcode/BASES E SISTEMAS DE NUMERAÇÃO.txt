@@ -1,0 +1,189 @@
+BASES E SISTEMAS DE NUMERAÇÃO
+
+
+Desde o início de sua existência, o homem sentiu a necessidade de contar objetos, fazer divisões, diminuir, somar, 
+entre outras operações aritméticas de que hoje se tem conhecimento. Diversas formas de contagem e representação de valores
+foram propostas. Podemos dizer que a forma mais utilizada para a representação numérica é a notação posicional.
+
+Segundo Monteiro (2007), na notação posicional, os algarismos componentes de um número assumem valores diferentes, 
+dependendo de sua posição relativa nele. O valor total do número é a soma dos valores relativos de cada algarismo. 
+Dessa forma, dependendo do sistema de numeração adotado, é dito que a quantidade de algarismos que o compõem é
+denominada base.
+
+Assim, a partir do conceito de notação posicional, tornou-se possível a conversão entre diferentes bases.
+
+A civilização ocidental adotou um sistema de numeração que possui dez algarismos (0, 1, 2, 3, 4, 5, 6, 7, 8 e 9), 
+denominado de sistema decimal. A quantidade de algarismos de um dado sistema é chamada de base; portanto, no sistema 
+decimal a base é 10.
+
+O sistema binário possui apenas dois algarismos (0 e 1), sendo que sua base é 2.
+
+
+
+CONVERSÃO DE BASES
+
+O sistema de numeração que utilizamos é o decimal, e consiste em dez valores possíveis (0, 1, 2, 3, 4, 5, 6, 7,8 e 9) 
+para cada casa numérica. Entretanto, no ramo da eletrônica e principalmente da computação são utilizadas outras bases
+numéricas, tais como a base binária, octal e hexadecimal. Deste modo, conforme a demanda e utilização de equipamentos 
+eletrônicos aumenta, entender o funcionamento destas bases se torna ainda mais importante.
+
+Uma das bases mais utilizadas pelos programadores é a base binária, onde apenas os números 0 e 1 podem assumir as 
+casas numéricas. Este sistema de numeração se tornou o mais utilizado no setor, pois os mesmos números são utilizados 
+para controlar o funcionamento (1) ou o desligamento (0) dos componentes. Sendo assim, vamos aprender agora a realizar 
+a conversão do sistema decimal para o sistema binário.
+
+O Quadro a seguir mostra a equivalência entre as bases decimal, binária, octal e hexadecimal:
+
+DECIMAL           BINÁRIO            HEXADECIMAL        OCTAL
+  0                0000                  0               0
+  1                0001                  1               1
+  2                0010                  2               2
+  3                0011                  3               3
+  4                0100                  4               4
+  5                0101                  5               5
+  6                0110                  6               6
+  7                0111                  7               7
+  8                1000                  8              10
+  9                1001                  9              11
+ 10                1010                  A              12
+ 11                1011                  B              13
+ 12                1100                  C              14
+ 13                1101                  D              15
+ 14                1110                  E              16
+ 15                1111                  F              17
+
+FONTE: ADAPTADO DE MONTEIRO (2007)
+
+
+
+CONVERSÃO DE DECIMAL PARA BINÁRIO
+
+Vamos realizar a conversão do número 500. O primeiro passo é realizar a divisão do número pelo número de sua base. 
+Como estamos convertendo o número para a base binária, devemos dividi-lo pelo número 2. Na sequência, continuaremos 
+dividindo os resultados até atingir o resultado 0. Veja abaixo:
+
+VALOR INICIAL    DIVIDIR PELA BASE         RESULTADO     RESTO
+    500       /         2             =       250          0
+    250       /         2             =       125          0
+    125       /         2             =       6|2          1
+     62       /         2             =        31          0
+     31       /         2             =        15          1
+     15       /         2             =         7          1
+      7       /         2             =         3          1
+      3       /         2             =         1          1
+      1       /         2             =         0          1    ↑
+
+
+
+
+Feito isso, devemos agora escrever o número binário, que será representado pelos restos da divisão, escritos debaixo 
+(o último resto) para cima (o primeiro resto). Para o exemplo acima, o número binário que representa o número 500 é:
+
+
+500¹º= 111110100²
+
+
+Outros exemplos de conversão:
+
+Converter o número 29 do sistema decimal para binário.
+
+ 29 / 2 = 14  - 1
+ 14 / 2 = 7   - 0
+  7 / 2 = 3   - 1
+  3 / 2 = 1   - 1
+  1 / 2 = 1   - 1 
+
+29 DECIMAL = 11101 BINÁRIO
+
+
+
+Converter o número 10 do sistema decimal para binário.
+
+10 / 2 = 5 - 0
+5  / 2 = 2 - 1
+2  / 2 = 1 - 0
+1  / 2 = 0 - 1
+
+10 DECIMAL = 1010 BINÁRIO
+
+
+
+Converter o número 15 do sistema decimal para binário.
+
+15 / 2 = 7 - 1
+7  / 2 = 3 - 1
+3  / 2 = 1 - 1
+1  / 2 = 1 - 1
+
+15 DECIMAL = 1111 BINÁRIO
+
+
+
+O número binário é formado pelo quociente da ultima divisão e os restos das divisões sucessivas da direita para a esquerda , 
+Todo número decimal par quando convertido para binário termina em zero, e todo número decimal impar termina em um quando 
+convertido para binário.
+
+
+
+
+
+CONVERSÃO DE BINÁRIO PARA DECIMAL
+
+Podemos também realizar o processo inverso, ou seja, transformar o número binário em um no sistema decimal. Para isso 
+vamos transformar o número 11010111 para o sistema de medida decimal.
+
+O primeiro passo é escrever as potências do número 2, da direita para a esquerda, começando em 0 e aumentar o expoente 
+até n-1 números do binário. Como nosso exemplo tem 8 dígitos, o maior expoente será 7.
+
+Em seguida, devemos reescrever o binário e realizar a multiplicação do valor do binário pela sua potência respectiva. 
+Assim, os valores correspondentes ao número 0 se tornarão 0 e os correspondentes ao número 1 se manterão iguais. Deste modo, 
+temos que:
+
+    BINÁRIO      1      1      0      1      0      1      1      1
+    POTÊNCIA    2(7)   2(6)   2(5)   2(4)   2(3)   2(2)   2(1)   2(0)
+    RESULTADO   128     64     32     16     8      4      2      1
+    BINÁRIO      1      1      0      1      0      1      1      1
+MULTIPLICAÇÃO   128     64     0      16     0      4      2      1
+
+128+64+16+4+2+1 = 215
+
+  
+
+Para converter um número binário para decimal, basta multiplicar cada bit pelo seu valor de posição e somar os resultados.
+
+
+
+Exemplos:
+Converter o número 1010 do sistema binário para decimal.
+
+BINÁRIO     1            0           1           0
+POSIÇÃO    2(3)         2(2)        2(1)        2(0)
+CALCULO   1*2(3)=8    0*2(2)=0    1*2(1)=2    0*2(0)=0
+
+            8      +    2    = 10 (DECIMAL)
+
+
+
+Converter o número 1101 do sistema binário para decimal.
+
+BINÁRIO     1            1           0           1
+POSIÇÃO    2(3)         2(2)        2(1)        2(0)
+CALCULO   1*2(3)=8    1*2(2)=4    0*2(1)=0    1*2(0)=1
+
+            8      +    4    +  1     = 13 (DECIMAL)
+
+
+
+Converter o número 1111 do sistema binário para decimal.
+
+BINÁRIO     1            1           1           1
+POSIÇÃO    2(3)         2(2)        2(1)        2(0)
+CALCULO   1*2(3)=8    1*2(2)=4    1*2(1)=2    1*2(0)=1
+
+            8      +    4     +    2   +     1  = 15 (DECIMAL)
+
+
+
+
+
+
